@@ -1,10 +1,28 @@
 package Arslan.sandbox;
 
+import java.sql.SQLOutput;
+
 public class MyFirstProgram {
     public static void main(String[] args) {
-        System.out.println("Hello word!");
-        System.out.println(2+2);
-        System.out.println(2*2);
+        hello("world");
+        double l=5;
+        System.out.println("Площадь квадрата со стороной "+ l + " равна "+ area(l));
 
+        double a=5;
+        double b=6;
+        System.out.println("Площадь прямоугольника со сторонами "+a+" и "+b+" равна "+ area(a,b));
+    }
+
+
+    public static void hello(String l){
+        System.out.println("Hello "+l);
+    }
+
+    public static double area(double length){
+       return length*length;
+    }
+
+    public static double area(double a, double b){
+        return a*b;
     }
 }
