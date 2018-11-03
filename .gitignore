@@ -13,3 +13,9 @@ gradle-app.setting
 # # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
 # gradle/wrapper/gradle-wrapper.properties
 .idea/workspace.xml
+SandBox/src/main/java/Arslan/sandbox/Rectangle.java
+SandBox/src/main/java/Arslan/sandbox/Square.java
+SandBox/src/main/java/Arslan/sandbox/MyFirstProgram.java
+SandBox/out/production/classes/Arslan/sandbox/Square.class
+SandBox/out/production/classes/Arslan/sandbox/Rectangle.class
+SandBox/out/production/classes/Arslan/sandbox/MyFirstProgram.class
