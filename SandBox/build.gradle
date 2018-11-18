@@ -1,3 +1,10 @@
 apply plugin: 'java'
 apply plugin: 'application'
-mainClassName = "MyFirstProgram"
+mainClassName = "Arslan.MyFirstProgram"
+
+repositories {
+    mavenCentral()
+}
+dependencies {
+    compile 'org.jboss.arquillian.testng:arquillian-testng-parent:1.4.1.Final'
+}
